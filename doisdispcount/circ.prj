@@ -1,0 +1,2 @@
+vhdl work "../proj14/disp_int.vhd"
+vhdl work "../DoisDisp/circ.vhd"

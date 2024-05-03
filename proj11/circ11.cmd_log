@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj11/circ11.xst" -ofn "C:/VHDL/Buza/proj11/circ11.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 circ11.ngc circ11.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o circ11_map.ncd circ11.ngd circ11.pcf 
+par -w -intstyle ise -ol high -mt off circ11_map.ncd circ11.ncd circ11.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml circ11.twx circ11.ncd -o circ11.twr circ11.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f circ11.ut circ11.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 circ11.ngc circ11.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o circ11_map.ncd circ11.ngd circ11.pcf 
+par -w -intstyle ise -ol high -mt off circ11_map.ncd circ11.ncd circ11.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml circ11.twx circ11.ncd -o circ11.twr circ11.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f circ11.ut circ11.ncd 

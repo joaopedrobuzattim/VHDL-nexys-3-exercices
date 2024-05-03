@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj10/circ10.xst" -ofn "C:/VHDL/Buza/proj10/circ10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 circ10.ngc circ10.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o circ10_map.ncd circ10.ngd circ10.pcf 
+par -w -intstyle ise -ol high -mt off circ10_map.ncd circ10.ncd circ10.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml circ10.twx circ10.ncd -o circ10.twr circ10.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f circ10.ut circ10.ncd 

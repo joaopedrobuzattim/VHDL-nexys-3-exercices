@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/VHDL/Buza/circ9/circ9_isim_beh.exe" -prj "C:/VHDL/Buza/circ9/circ9_beh.prj" "work.circ9" 

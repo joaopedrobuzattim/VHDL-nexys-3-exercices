@@ -1,0 +1,20 @@
+ISim log file
+Running: C:\VHDL\Buza\proj4\Circ4_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/VHDL/Buza/proj4/Circ4_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /circ4/a 1 -radix bin
+# isim force add /circ4/a 1 -radix bin
+# isim force add /circ4/c 1 -radix bin
+# isim force add /circ4/c 1 -radix bin
+# run all
+# isim force add /circ4/b 0 -radix bin
+# isim force add /circ4/b 0 -radix bin
+# isim force add /circ4/d 0 -radix bin
+# isim force add /circ4/d 0 -radix bin
+# run 1.00us

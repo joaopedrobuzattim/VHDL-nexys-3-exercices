@@ -1,0 +1,28 @@
+Command line:
+   circ6_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50681
+
+Thu Sep 29 09:43:18 2022
+
+
+ Elaboration Time: 0.1875 sec
+
+ Current Memory Usage: 5654.76 Meg
+
+ Total Signals          : 4
+ Total Nets             : 4
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 364
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 4711.04 Meg
+
+Thu Sep 29 09:59:11 2022
+

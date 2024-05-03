@@ -1,0 +1,17 @@
+net "sel[3]" loc = P17;
+net "sel[2]" loc = P18;
+net "sel[1]" loc = N15;
+net "sel[0]" loc = N16;
+
+net "clk" loc = v10;
+
+net "d[6]" loc = T17;
+net "d[5]" loc = t18;
+net "d[4]" loc = u17;
+net "d[3]" loc = u18;
+net "d[2]" loc = m14;
+net "d[1]" loc = n14;
+net "d[0]" loc = l14;
+
+
+net "switch" loc = T10;

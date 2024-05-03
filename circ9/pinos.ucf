@@ -1,0 +1,6 @@
+net "a[0]" loc = T10;
+net "a[1]" loc = T9;
+net "a[2]" loc = V9;
+net "a[3]" loc = M8;
+net "b[0]" loc = R11;
+net "b[1]" loc = T11;

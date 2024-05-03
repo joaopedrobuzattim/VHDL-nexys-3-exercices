@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\VHDL\Buza\proj11\circ11.ncd
+OUTFILE=C:\VHDL\Buza\proj11\circ11.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\VHDL\Buza\proj11
+LICENSE=WebPack
+USER_INFO=__0_0_0

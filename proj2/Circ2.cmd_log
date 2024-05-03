@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj2/Circ2.xst" -ofn "C:/VHDL/Buza/proj2/Circ2.syr" 

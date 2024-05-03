@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj8/circ8.xst" -ofn "C:/VHDL/Buza/proj8/circ8.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj8/circ8.xst" -ofn "C:/VHDL/Buza/proj8/circ8.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj8/circ8.xst" -ofn "C:/VHDL/Buza/proj8/circ8.syr" 
+xst -intstyle ise -ifn "C:/VHDL/Buza/proj8/circ8.xst" -ofn "C:/VHDL/Buza/proj8/circ8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 circ8.ngc circ8.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o circ8_map.ncd circ8.ngd circ8.pcf 
+par -w -intstyle ise -ol high -mt off circ8_map.ncd circ8.ncd circ8.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml circ8.twx circ8.ncd -o circ8.twr circ8.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f circ8.ut circ8.ncd 

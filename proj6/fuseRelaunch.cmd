@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/VHDL/Buza/proj6/circ6_isim_beh.exe" -prj "C:/VHDL/Buza/proj6/circ6_beh.prj" "work.circ6" 

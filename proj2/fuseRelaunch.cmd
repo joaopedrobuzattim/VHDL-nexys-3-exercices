@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/VHDL/Buza/proj2/Circ2_isim_beh.exe" -prj "C:/VHDL/Buza/proj2/Circ2_beh.prj" "work.Circ2" 

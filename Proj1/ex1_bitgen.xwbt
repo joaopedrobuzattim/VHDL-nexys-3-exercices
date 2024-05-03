@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\VHDL\Buza\Proj1\ex1.ncd
+OUTFILE=C:\VHDL\Buza\Proj1\ex1.bit
+FAMILY=Automotive Spartan3E
+PART=xa3s500e-4cpg132
+WORKINGDIR=C:\VHDL\Buza\Proj1
+LICENSE=WebPack
+USER_INFO=__0_0_0

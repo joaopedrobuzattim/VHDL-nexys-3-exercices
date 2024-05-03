@@ -1,0 +1,28 @@
+Command line:
+   Circ4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50122
+
+Thu Sep 29 08:47:27 2022
+
+
+ Elaboration Time: 0.296875 sec
+
+ Current Memory Usage: 5654.74 Meg
+
+ Total Signals          : 5
+ Total Nets             : 5
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 365
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 4711.02 Meg
+
+Thu Sep 29 08:50:30 2022
+
