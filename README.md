@@ -10,6 +10,7 @@ The projects were developed using [Digilent Adept](https://digilent.com/shop/sof
 <p align="center">
   <img src="nexys-3-image.png" />
 </p>
+
 ## Contents
 
 The repository includes:
