@@ -1,9 +1,4 @@
-# VHDL Mini Projects 
-This repository contains VHDL projects developed for a college course during undergraduate studies.
-
-## Overview
-
-In this repository, you will find a collection of VHDL projects created as part of a college course focused on digital design and hardware description languages .
+In this repository, you will find a collection of simple VHDL projects.
 
 The projects were developed using [Digilent Adept](https://digilent.com/shop/software/digilent-adept/) and executed on [ Nexys 3 ](https://digilent.com/reference/_media/nexys:nexys3:nexys3_rm.pdf)FPGA development board.
 
