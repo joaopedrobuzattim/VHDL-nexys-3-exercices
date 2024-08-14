@@ -13,14 +13,6 @@ The repository includes:
 - **VHDL Projects**:  VHDL code implementations.
 - **Configuration Files**: Digilent Adept configuration files.
 
-## Course Information
-
-These projects were completed as part of a specific college course. 
-
-- **Course Name**: Sistemas Lógicos Programáveis
-- **Institution**: Universidade Federal de Santa Maria
-- **Semester/Year**: 5/2022
-
 ## Usage
 
 Feel free to explore the projects and use them as a reference for learning VHDL.
